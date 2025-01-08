@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <!--css ref-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Fiokkeszites</title>
+
+    <!--js ref-->
+    <script src="scripts.js"></script>
+
+</head>
+<body>
+
+  <p><a href="Menu.html">Vissza</a> a főmenübe.</p>
+
+<h1>Kérlek töltsd ki az alábbi mezőket!</h1>
+
+<form name ="Forum" action="/action_page.php" onsubmit="validateForm()" method="post">
+    <label for="uname">Felhasználónév:</label>
+    <input type="text" id="uname" name="uname" value="" required><br>
+
+    <label for="email">Email-cím:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="favcolor">Válaszd ki a kedvenc színed:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+
+    <p>Korosztályod:</p>
+    <input type="radio" id="1r" name="kor" value="12-18" checked="checked">
+    <label for="1r">12-18</label><br>
+    
+    <input type="radio" id="2r" name="kor" value="18-30">
+    <label for="2r">18-30</label><br>
+    
+    <input type="radio" id="3r" name="kor" value="30+">
+    <label for="3r">30+</label><br>
+    <p></p>
+
+    <input type="checkbox" id="elfogadas" name="elfogadas" value="" required>
+    <label for="elfogadas"> Elfogadom a felhasználói feltételeket. </label><br>
+
+    <input type="checkbox" id="ertesites" name="ertesites" value="">
+    <label for="ertesites"> Szeretnék értesítést kapni e-mailbe a frissítésekről. </label><br>
+
+    <p1>Ha van egyébb mejdegyzésed írd le ide:</p1>
+    <textarea name="textarea" cols="40" rows="5"></textarea>
+    <p></p>
+    <input type="submit" value="Submit">
+
+
+  </form> 
+
+</body>
+</html> 

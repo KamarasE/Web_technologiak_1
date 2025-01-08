@@ -1,0 +1,41 @@
+Beadandó követelmények
+
+A beadandó tartalmazza az alábbiakat:
+
+HTML:
+OK- div, span, p, címsorok
+OK- képek
+OK- táblázat
+OK- linkek
+- - űrlap elemek:
+	OK- szöveges beviteli mező: egy, több soros
+	OK- checkbox
+	OK- radio button
+	OK- színválasztó
+	OK- dátum választás
+  OK- gombok
+OK- számozott lista 
+OK- pontozott lista 
+OK- több darab html fájl legyen, minimum 4
+
+CSS:
+OK- style attribútumban néhány elem formázása
+OK- azonosító alapján formázást
+OK- osztály alapján formázást
+OK- táblázat formázása
+OK- menü kialakítása
+OK- háttérszín
+OK- linkek formázása
+OK- űrlap elemek, gombok formázása
+OK- egy vagy több css fájlban is legyen formázás, és a html-ben a <style> tag-ben is
+
+Javascript, jQuery:
+- form ellenőrzés, hiba esetén az egyes űrlap elemeknél kiírja hogy mi a hiba, css-t állít pl. piros keret ha hibás az adott űrlap elem
+OK- animáció
+OK- elemek kiválasztása: html tag név alapján, osztály alapján, azonosító (id) alapján stb.
+- új html elem készítése, meglévő html elem módosítása
+
+Dokumentáció is szükséges az elvégzett munkáról (a kód és felhasználói felület bemutatása). Minimum 5 oldal, nincs maximum korlát.
+ 
+
+  
